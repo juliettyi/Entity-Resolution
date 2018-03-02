@@ -56,7 +56,7 @@ python EntityResolution.py
 
 ## Current Result and Future Work
 Based on the current program, 2103 records are generated in the output file. There are still some future work can be done to improve the precision and number of resolved cases. For example, there are a number of titles such as “Editor’s Notes” with missing information. To achieve a better resolution, we will need the combination of the following:
-- add more mappings of venues
-- add more name mappings for common misspelling or variations.
-- separate matching logic for common titles such as "Editor's Notes"
+- Add more mappings of venues
+- Add more name mappings for common misspelling or variations.
+- Separate matching logic for common titles such as "Editor's Notes"
 - Establish human evaluation process to judge the effectiveness and correctness of new matching rules.
