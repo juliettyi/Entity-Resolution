@@ -1,17 +1,17 @@
 # Entity-Resolution
 
-##Description
+## Description
 
 In this project, we implement a python script names EntityResolution.py to resolve the records from two datasets Scholar.csv (64260 records) and DBLP1.csv (2616 records), and writes a final .csv file named “DBLP_Scholar_perfecMapping_YiChen.csv” that only contains the resolved entities.
  
-##Files Included in This Project
+## Files Included in This Project
  
 Scholar.csv- input dataset
 DBLP1.csv-input dataset
 DBLP_Scholar_perfecMapping_YiChen.csv- required output dataset
 EntityResolution.py – python script for the project
  
-##Resolution Criteria and Assumptions
+## Resolution Criteria and Assumptions
 
 -Author name entered as: first name initial, middle name initial and last name, different author separated by comma.
 - Entities are considered to be resolved if they can match the following fields: title, author, venue and year. All the matching fields will be normalized when needed before matching.
@@ -21,7 +21,7 @@ EntityResolution.py – python script for the project
   - Year: exact match if years from both datasets are available
   - Venue: match based on field value as well as an additional manually created mapping from the knowledge of the datasets
  
-##Resolution Algorithm
+## Resolution Algorithm
 1.Title normalization:
 - Remove punctuations
 - Convert to lower cases
@@ -48,10 +48,10 @@ EntityResolution.py – python script for the project
 - Venue: if both fields are not null and cannot be matched, then reject the resolution by venue
 - Year: if both fields are not null and the year cannot be exactly matched, then reject the resolution by year 
  
-##To Run the Program
+## To Run the Program
 python resolve.py
 
-##Current Result and Future Work
+## Current Result and Future Work
 Based on the current program, 2103 records are generated in the output file. There are still some future work can be done to improve the precision and number of resolved cases. For example, there are a number of titles such as “Editor’s Notes” with missing information. To achieve a better resolution, we will need the combination of the following:
 - add more mappings of venues
 - add more name mappings for common misspelling or variations.
