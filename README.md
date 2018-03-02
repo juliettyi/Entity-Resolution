@@ -52,7 +52,7 @@ EntityResolution.py – python script for the project
  - Year: if both fields are not null and the year cannot be exactly matched, then reject the resolution by year 
  
 ## To Run the Program
-python resolve.py
+python EntityResolution.py
 
 ## Current Result and Future Work
 Based on the current program, 2103 records are generated in the output file. There are still some future work can be done to improve the precision and number of resolved cases. For example, there are a number of titles such as “Editor’s Notes” with missing information. To achieve a better resolution, we will need the combination of the following:
