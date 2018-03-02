@@ -7,8 +7,11 @@ In this project, we implement a python script names EntityResolution.py to resol
 ## Files Included in This Project
  
 Scholar.csv- input dataset
+
 DBLP1.csv-input dataset
+
 DBLP_Scholar_perfecMapping_YiChen.csv- required output dataset
+
 EntityResolution.py – python script for the project
  
 ## Resolution Criteria and Assumptions
